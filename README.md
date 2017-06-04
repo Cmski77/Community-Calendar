@@ -1,4 +1,4 @@
-# CS410-16-SoftwareEngProject
+EDSN Community Calendar
 
 This was a team based final project for my Software Engineering class at CCSU, using Scrum sprints. For local deployment and debugging, Netbeans was used. 
 
