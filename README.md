@@ -8,9 +8,16 @@ The project consists of two main parts: A web page that allows users to view a G
 Some of the code that I was involved with:
 
 Source\EDSNCalendar\src\java\Events\GetEvents.java
+
 Source\EDSNCalendar\src\java\Events\GetUnpublishedEvents.java
+
 Source\EDSNCalendar\src\java\Events\EventPublisher.java
+
 Source\EDSNCalendar\src\java\Events\EventUnpublisher.java
+
 Source\EDSNCalendar\src\java\Events\RejectionSender.java
+
 Source\EDSNCalendar\web\tables.jsp
+
 Source\EDSNCalendar\web\js\edsn-cal-events
+
