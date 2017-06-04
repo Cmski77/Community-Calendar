@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>GetUnpublishedEvents</servlet-name>
+        <servlet-class>Events.GetUnpublishedEvents</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RejectionSender</servlet-name>
+        <servlet-class>Events.RejectionSender</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EventSubmit</servlet-name>
+        <servlet-class>Events.EventSubmit</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CalendarInsert</servlet-name>
+        <servlet-class>Events.CalendarInsert</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetUsers</servlet-name>
+        <servlet-class>Settings.GetUsers</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UserInsert</servlet-name>
+        <servlet-class>Users.UserInsert</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EventUnpublisher</servlet-name>
+        <servlet-class>Events.EventUnpublisher</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EventUnpublisher</servlet-name>
+        <url-pattern>/EventUnpublisher</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

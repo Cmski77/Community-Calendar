@@ -1,0 +1,23 @@
+Source/EDSNCalendar/nbproject/**
+Source/EDSNCalendar/build/**
+Source/EDSNCalendar/dist/**
+nbproject/private/**
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+/Source/PassWordHashTest/nbproject/private/
+/Source/JavaApplication7/nbproject/private/
+/Source/JavaApplication8/nbproject/private/
